@@ -26,10 +26,10 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, client) => {
     },
     {
         $set: {
-            name: 'wp'
+            name: 'ggwp'
         },
         $inc: {
-            age: 1
+            age: -11
         }
     },
     {
